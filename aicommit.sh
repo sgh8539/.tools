@@ -1,6 +1,6 @@
 # aicommit - opencode-based git commit message generator
 # Loaded via source from ~/.tools/*.sh.
-# Model: opencode/muse-spark-1.3-contributor-free (free model, override with env AICOMMIT_MODEL)
+# Model: opencode/ling-3.0-flash-fin-free (free model, override with env AICOMMIT_MODEL)
 #
 # Usage:
 #   aicommit                       # generate message, then wait for c/r/x/extra-prompt input
@@ -18,7 +18,7 @@
 #   empty input   : prompt again
 
 # Model (override with export AICOMMIT_MODEL=... if needed)
-: "${AICOMMIT_MODEL:=opencode/muse-spark-1.3-contributor-free}"
+: "${AICOMMIT_MODEL:=opencode/ling-3.0-flash-fin-free}"
 
 _aicommit_usage() {
     cat <<'EOF'
